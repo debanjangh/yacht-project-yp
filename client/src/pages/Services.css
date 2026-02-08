@@ -1,0 +1,35 @@
+.services-page {
+  min-height: 100vh;
+  padding: 120px 40px 80px;
+  background: linear-gradient(
+    180deg,
+    #0b1c2d 0%,
+    #102a43 100%
+  );
+}
+
+/* Header */
+.services-header {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 80px;
+}
+
+.services-header h1 {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.services-header p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Grid layout */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
