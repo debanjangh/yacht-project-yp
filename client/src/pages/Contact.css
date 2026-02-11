@@ -25,7 +25,8 @@
   font-size: 16px;
 }
 
-/* Form */
+/* ================= FORM ================= */
+
 .contact-form {
   max-width: 600px;
   margin: 0 auto;
@@ -55,6 +56,8 @@
   font-size: 14px;
 }
 
+/* Button */
+
 .contact-btn {
   width: 100%;
   padding: 14px;
@@ -71,6 +74,7 @@
   opacity: 0.9;
 }
 
+/* Button animations */
 
 .btn,
 .contact-btn {
@@ -86,10 +90,48 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
 }
 
+/* Focus states */
+
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
   outline: none;
   border-color: #0b1c2d;
   box-shadow: 0 0 0 2px rgba(11, 28, 45, 0.15);
+}
+
+/* ================= RTL FIX (ARABIC) ================= */
+
+html[dir="rtl"] .contact-form {
+  direction: rtl;
+}
+
+/* Headings stay centered */
+html[dir="rtl"] .contact-header {
+  text-align: center;
+}
+
+/* Labels align right */
+html[dir="rtl"] .form-group label {
+  text-align: right;
+}
+
+/* Inputs & selects spacing */
+html[dir="rtl"] .form-group input,
+html[dir="rtl"] .form-group textarea,
+html[dir="rtl"] .form-group select {
+  text-align: right;
+  padding-right: 18px;
+  padding-left: 14px;
+}
+
+/* Fix dropdown arrow & option visibility */
+html[dir="rtl"] .form-group select {
+  background-position: left 14px center;
+}
+
+/* Extra breathing room so Arabic text never clips */
+html[dir="rtl"] .contact-form {
+  padding-right: 44px;
+  padding-left: 36px;
 }

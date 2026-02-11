@@ -1,11 +1,5 @@
 import Enquiry from "../models/Enquiry.js";
-import { Resend } from "resend";
-
-// ✅ Initialize Resend ONCE
-const resend = new Resend(process.env.RESEND_API_KEY);
-
-// ✅ Debug check (REMOVE later)
-console.log("RESEND KEY:", process.env.RESEND_API_KEY);
+import sendEmail from "../utils/mailer.js";
 
 export const submitEnquiry = async (req, res) => {
   try {
@@ -25,9 +19,8 @@ export const submitEnquiry = async (req, res) => {
     });
 
     // 3️⃣ Email to COMPANY
-    await resend.emails.send({
-      from: "YP Yachting <onboarding@resend.dev>",
-      to: [process.env.COMPANY_EMAIL],
+    await sendEmail({
+      to: process.env.COMPANY_EMAIL,
       subject: `New Enquiry: ${service}`,
       html: `
         <h2>New Service Enquiry</h2>
@@ -40,9 +33,8 @@ export const submitEnquiry = async (req, res) => {
     });
 
     // 4️⃣ Auto-reply to CLIENT
-    await resend.emails.send({
-      from: "YP Yachting <onboarding@resend.dev>",
-      to: [email],
+    await sendEmail({
+      to: email,
       subject: "We received your enquiry",
       html: `
         <p>Hi ${name},</p>
@@ -64,3 +56,4 @@ export const submitEnquiry = async (req, res) => {
     res.status(500).json({ message: "Server error" });
   }
 };
+

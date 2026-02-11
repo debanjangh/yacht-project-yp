@@ -3,16 +3,26 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding: 16px 40px;
+  padding: 14px 40px;
   background: rgba(11, 28, 45, 0.95);
   z-index: 1000;
+
+  display: flex;
+  align-items: center;
 }
 
-/* Left group: logo + links */
+/* Left group */
 .nav-left {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 50px;
+}
+
+/* Logo + language stack */
+.logo-block {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .nav-logo {
@@ -20,9 +30,10 @@
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 2px;
+  white-space: nowrap;
 }
 
-/* Links */
+/* Navigation links */
 .nav-links {
   list-style: none;
   display: flex;
@@ -40,7 +51,7 @@
   padding-bottom: 6px;
 }
 
-/* Left → Right underline animation */
+/* Underline animation */
 .nav-link::after {
   content: "";
   position: absolute;
@@ -56,6 +67,50 @@
   width: 100%;
 }
 
-.navbar {
-  transition: background 0.3s ease, box-shadow 0.3s ease;
+/* ================= LANGUAGE TOGGLE ================= */
+
+.lang-toggle {
+  display: flex;
+  gap: 6px;
+}
+
+.lang-btn {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  color: white;
+  padding: 2px 8px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.25s ease;
+}
+
+.lang-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.lang-btn.active {
+  background: white;
+  color: #0b1c2d;
+  font-weight: 600;
+}
+
+/* ================= RTL SUPPORT ================= */
+
+html[dir="rtl"] .nav-left {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .logo-block {
+  align-items: flex-end;
+}
+
+html[dir="rtl"] .nav-links {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .nav-link::after {
+  left: auto;
+  right: 0;
 }

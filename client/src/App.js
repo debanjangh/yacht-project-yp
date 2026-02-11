@@ -20,7 +20,14 @@ export default function App() {
     initScrollReveal();
   }, []);
 
-  const t = translations[lang];
+  // Handle RTL + HTML lang attribute
+  useEffect(() => {
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
+  }, [lang]);
+
+  // Fallback safety (prevents crashes)
+  const t = translations[lang] || translations.en;
 
   return (
     <BrowserRouter>

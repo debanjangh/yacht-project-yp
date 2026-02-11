@@ -7,7 +7,7 @@ export default function Footer() {
 
         {/* Brand */}
         <div className="footer-brand">
-          <h3>YP YACHTING</h3>
+          <h3>JCS YACHTING</h3>
           <p>
             Premium yacht services delivering excellence,
             safety, and comfort at sea.
@@ -27,8 +27,9 @@ export default function Footer() {
         {/* Contact */}
         <div className="footer-contact">
           <h4>Contact</h4>
-          <p>Email: info@ypyachting.com</p>
-          <p>Phone: +91 XXXXX XXXXX</p>
+          <p>Email: operations@jcsyachting.mc</p>
+          <p>Phone:+33 6 07 93 62 77 </p>
+          <p>Address: 17 Avenue Albert II, 98000 Monaco</p>
           <p>Available 24/7</p>
         </div>
 

@@ -1,4 +1,5 @@
 export const translations = {
+  /* ================= ENGLISH ================= */
   en: {
     nav: {
       home: "Home",
@@ -7,7 +8,6 @@ export const translations = {
       contact: "Contact",
     },
 
-    /* ================= HOME ================= */
     home: {
       heroTitle: "Elite Yacht Services",
       heroSubtitle: "Excellence at sea, available 24/7",
@@ -17,32 +17,28 @@ export const translations = {
         agency: "Yacht Agency",
         agencyDesc:
           "End-to-end yacht representation and operational support.",
-
         management: "Yacht Management",
         managementDesc:
           "Comprehensive technical, operational, and compliance management.",
-
         concierge: "Concierge & VIP",
         conciergeDesc:
           "Bespoke concierge services tailored to owners and guests.",
       },
     },
 
-    /* ================= ABOUT ================= */
     about: {
       header: "About Us",
       label: "ABOUT JCS YACHTING",
       title: "Delivering Excellence at Sea",
       imageAlt: "About JCS Yachting",
-
-      p1: "JCS Yachting provides comprehensive yacht support services designed for owners and guests who expect precision, reliability, and comfort at every stage of their journey.",
-
-      p2: "From professional crew management to maintenance coordination and luxury concierge services, we operate with a commitment to excellence, discretion, and seamless execution.",
-
-      p3: "With a focus on quality, safety, and personalized service, we ensure every voyage is supported with care, expertise, and attention to detail.",
+      p1:
+        "Delivering trusted yacht agency, management, and marine support services across the Mediterranean.",
+      p2:
+        "At JCS Yachting, we provide professional and personalised maritime solutions tailored to the needs of yacht owners, captains, and crew.",
+      p3:
+        "Based in Monaco and supported by more than 35 years of seafaring experience, we ensure excellence at every stage.",
     },
 
-    /* ================= SERVICES ================= */
     services: {
       header: "Our Services",
       intro:
@@ -50,44 +46,32 @@ export const translations = {
 
       items: {
         cleaning: {
-          title: "Yacht Cleaning",
-          desc:
-            "Professional interior and exterior cleaning services to maintain pristine condition and presentation.",
+          title: "Yacht Detailing",
+          desc: "Professional interior and exterior detailing services.",
         },
-
         crew: {
-          title: "Crew Services",
-          desc:
-            "Qualified crew sourcing, placement, and ongoing management tailored to your yacht’s requirements.",
+          title: "Crew Management",
+          desc: "Qualified crew sourcing, placement, and ongoing management.",
         },
-
         concierge: {
-          title: "Concierge & VIP",
-          desc:
-            "Luxury concierge services including guest arrangements, provisioning, and personalized experiences.",
+          title: "Luxury Concierge",
+          desc: "Luxury concierge services and guest arrangements.",
         },
-
         maintenance: {
-          title: "Maintenance & Support",
-          desc:
-            "Routine checks, technical coordination, and preventative maintenance to ensure smooth operations.",
+          title: "Technical Support",
+          desc: "Routine checks, diagnostics, and preventative maintenance.",
         },
-
         fuel: {
-          title: "Fuel & Supplies",
-          desc:
-            "Reliable fuel management and premium supplies to support uninterrupted voyages.",
+          title: "Bunkering & Supplies",
+          desc: "Reliable fuel management and premium marine supplies.",
         },
-
         port: {
-          title: "Port & Logistics",
-          desc:
-            "Port clearance, marina coordination, and logistical support across destinations.",
+          title: "Port Agency Services",
+          desc: "Port clearance, marina coordination, and logistics support.",
         },
       },
     },
 
-    /* ================= CONTACT ================= */
     contact: {
       header: "Contact Us",
       subheader:
@@ -103,12 +87,12 @@ export const translations = {
       },
 
       services: {
-        cleaning: "Yacht Cleaning",
-        crew: "Crew Services",
-        concierge: "Concierge & VIP",
-        maintenance: "Maintenance & Support",
-        fuel: "Fuel & Supplies",
-        port: "Port & Logistics",
+        cleaning: "Yacht Detailing",
+        crew: "Crew Management",
+        concierge: "Luxury Concierge",
+        maintenance: "Technical Support",
+        fuel: "Bunkering & Supplies",
+        port: "Port Agency Services",
       },
 
       status: {
@@ -120,6 +104,7 @@ export const translations = {
     },
   },
 
+  /* ================= FRENCH ================= */
   fr: {
     nav: {
       home: "Accueil",
@@ -128,115 +113,308 @@ export const translations = {
       contact: "Contact",
     },
 
-    /* ================= HOME ================= */
     home: {
       heroTitle: "Services Nautiques d’Élite",
-      heroSubtitle: "L'excellence en mer, disponible 24h/24 et 7j/7",
-      expertiseTitle: "Nos Services Clés",
+      heroSubtitle: "L’excellence en mer, disponible 24h/24 et 7j/7",
+      expertiseTitle: "Nos Services Principaux",
 
       services: {
         agency: "Agence de Yacht",
         agencyDesc:
-          "Représentation complète et support opérationnel des yachts.",
-
+          "Représentation complète et assistance opérationnelle des yachts.",
         management: "Gestion de Yacht",
         managementDesc:
           "Gestion technique, opérationnelle et réglementaire complète.",
-
         concierge: "Conciergerie & VIP",
         conciergeDesc:
           "Services de conciergerie sur mesure pour propriétaires et invités.",
       },
     },
 
-    /* ================= ABOUT ================= */
     about: {
       header: "À propos de nous",
       label: "À PROPOS DE JCS YACHTING",
       title: "L’excellence en mer",
       imageAlt: "À propos de JCS Yachting",
-
-      p1: "JCS Yachting propose des services complets d’assistance nautique destinés aux propriétaires et aux invités qui recherchent précision, fiabilité et confort à chaque étape de leur voyage.",
-
-      p2: "De la gestion professionnelle de l’équipage à la coordination de la maintenance et aux services de conciergerie de luxe, nous opérons avec un engagement total envers l’excellence, la discrétion et une exécution sans faille.",
-
-      p3: "En mettant l’accent sur la qualité, la sécurité et un service personnalisé, nous veillons à ce que chaque voyage soit accompagné avec soin, expertise et attention aux détails.",
+      p1:
+        "Services fiables d’agence nautique et d’assistance maritime en Méditerranée.",
+      p2:
+        "Nous proposons des solutions maritimes professionnelles et personnalisées.",
+      p3:
+        "Basés à Monaco avec plus de 35 ans d’expérience maritime.",
     },
 
-    /* ================= SERVICES ================= */
     services: {
       header: "Nos Services",
       intro:
-        "Des services complets d’assistance nautique conçus pour offrir excellence, sécurité et confort en mer.",
+        "Services complets de soutien aux yachts conçus pour offrir excellence, sécurité et confort en mer.",
 
       items: {
         cleaning: {
-          title: "Nettoyage de Yacht",
-          desc:
-            "Services professionnels de nettoyage intérieur et extérieur pour maintenir une présentation impeccable.",
+          title: "Entretien de Yacht",
+          desc: "Services professionnels de nettoyage intérieur et extérieur.",
         },
-
         crew: {
-          title: "Services d’Équipage",
-          desc:
-            "Recrutement, placement et gestion continue d’équipage qualifié adapté aux besoins de votre yacht.",
+          title: "Gestion d’Équipage",
+          desc: "Recrutement et gestion des équipages.",
         },
-
         concierge: {
-          title: "Conciergerie & VIP",
-          desc:
-            "Services de conciergerie de luxe incluant l’organisation des invités, l’avitaillement et des expériences personnalisées.",
+          title: "Conciergerie de Luxe",
+          desc: "Services VIP et organisation sur mesure.",
         },
-
         maintenance: {
-          title: "Maintenance & Assistance",
-          desc:
-            "Contrôles réguliers, coordination technique et maintenance préventive pour des opérations fluides.",
+          title: "Support Technique",
+          desc: "Maintenance préventive et contrôles techniques.",
         },
-
         fuel: {
-          title: "Carburant & Fournitures",
-          desc:
-            "Gestion fiable du carburant et fournitures premium pour des voyages sans interruption.",
+          title: "Carburant & Approvisionnement",
+          desc: "Gestion du carburant et fournitures marines.",
         },
-
         port: {
-          title: "Ports & Logistique",
-          desc:
-            "Formalités portuaires, coordination des marinas et assistance logistique dans toutes les destinations.",
+          title: "Services Portuaires",
+          desc: "Formalités portuaires et coordination des marinas.",
         },
       },
     },
 
-    /* ================= CONTACT ================= */
     contact: {
       header: "Contactez-nous",
       subheader:
-        "Faites-nous part de vos besoins et nous vous répondrons dans les plus brefs délais.",
+        "Parlez-nous de vos besoins et nous vous répondrons rapidement.",
 
       form: {
         name: "Votre nom",
         email: "Email",
         service: "Service souhaité",
         message: "Message",
-        selectPlaceholder: "Sélectionnez un service",
+        selectPlaceholder: "Sélectionner un service",
         submit: "Envoyer la demande",
       },
 
       services: {
-        cleaning: "Nettoyage de Yacht",
-        crew: "Services d’Équipage",
-        concierge: "Conciergerie & VIP",
-        maintenance: "Maintenance & Assistance",
-        fuel: "Carburant & Fournitures",
-        port: "Ports & Logistique",
+        cleaning: "Entretien de Yacht",
+        crew: "Gestion d’Équipage",
+        concierge: "Conciergerie de Luxe",
+        maintenance: "Support Technique",
+        fuel: "Carburant & Approvisionnement",
+        port: "Services Portuaires",
       },
 
       status: {
-        sending: "Envoi en cours...",
+        sending: "Envoi...",
         success: "Message envoyé avec succès ✅",
-        error: "Une erreur s’est produite ❌",
-        serverError: "Erreur du serveur ❌",
+        error: "Une erreur est survenue ❌",
+        serverError: "Erreur serveur ❌",
+      },
+    },
+  },
+
+  /* ================= ITALIAN ================= */
+  it: {
+    nav: {
+      home: "Home",
+      about: "Chi siamo",
+      services: "Servizi",
+      contact: "Contatti",
+    },
+
+    home: {
+      heroTitle: "Servizi Nautici d’Élite",
+      heroSubtitle: "Eccellenza in mare, disponibile 24/7",
+      expertiseTitle: "I Nostri Servizi Principali",
+
+      services: {
+        agency: "Agenzia Nautica",
+        agencyDesc:
+          "Rappresentanza completa e supporto operativo per yacht.",
+        management: "Gestione Yacht",
+        managementDesc:
+          "Gestione tecnica, operativa e normativa completa.",
+        concierge: "Concierge & VIP",
+        conciergeDesc:
+          "Servizi concierge su misura per armatori e ospiti.",
+      },
+    },
+
+    about: {
+      header: "Chi siamo",
+      label: "JCS YACHTING",
+      title: "Eccellenza in mare",
+      imageAlt: "Chi siamo",
+      p1:
+        "Servizi affidabili di agenzia nautica nel Mediterraneo.",
+      p2:
+        "Soluzioni professionali e personalizzate per yacht.",
+      p3:
+        "Con sede a Monaco e oltre 35 anni di esperienza.",
+    },
+
+    services: {
+      header: "I Nostri Servizi",
+      intro:
+        "Servizi completi di supporto nautico per garantire sicurezza, comfort ed eccellenza in mare.",
+
+      items: {
+        cleaning: {
+          title: "Pulizia Yacht",
+          desc: "Pulizia professionale interna ed esterna.",
+        },
+        crew: {
+          title: "Gestione Equipaggio",
+          desc: "Selezione e gestione dell’equipaggio.",
+        },
+        concierge: {
+          title: "Concierge di Lusso",
+          desc: "Servizi esclusivi per gli ospiti.",
+        },
+        maintenance: {
+          title: "Supporto Tecnico",
+          desc: "Manutenzione preventiva e controlli tecnici.",
+        },
+        fuel: {
+          title: "Carburante & Forniture",
+          desc: "Gestione carburante e forniture marine.",
+        },
+        port: {
+          title: "Servizi Portuali",
+          desc: "Assistenza portuale e coordinamento marina.",
+        },
+      },
+    },
+
+    contact: {
+      header: "Contattaci",
+      subheader:
+        "Descrivici le tue esigenze e ti risponderemo al più presto.",
+
+      form: {
+        name: "Il tuo nome",
+        email: "Email",
+        service: "Servizio di interesse",
+        message: "Messaggio",
+        selectPlaceholder: "Seleziona un servizio",
+        submit: "Invia richiesta",
+      },
+
+      services: {
+        cleaning: "Pulizia Yacht",
+        crew: "Gestione Equipaggio",
+        concierge: "Concierge di Lusso",
+        maintenance: "Supporto Tecnico",
+        fuel: "Carburante & Forniture",
+        port: "Servizi Portuali",
+      },
+
+      status: {
+        sending: "Invio...",
+        success: "Messaggio inviato con successo ✅",
+        error: "Qualcosa è andato storto ❌",
+        serverError: "Errore del server ❌",
+      },
+    },
+  },
+
+  /* ================= ARABIC (RTL) ================= */
+  ar: {
+    nav: {
+      home: "الرئيسية",
+      about: "من نحن",
+      services: "الخدمات",
+      contact: "اتصل بنا",
+    },
+
+    home: {
+      heroTitle: "خدمات اليخوت الفاخرة",
+      heroSubtitle: "التميّز في البحر على مدار الساعة",
+      expertiseTitle: "خدماتنا الرئيسية",
+
+      services: {
+        agency: "وكالة اليخوت",
+        agencyDesc:
+          "تمثيل كامل لليخوت ودعم تشغيلي متكامل.",
+        management: "إدارة اليخوت",
+        managementDesc:
+          "إدارة فنية وتشغيلية وتنظيمية شاملة.",
+        concierge: "الكونسيرج وكبار الشخصيات",
+        conciergeDesc:
+          "خدمات كونسيرج مخصصة للمالكين والضيوف.",
+      },
+    },
+
+    about: {
+      header: "من نحن",
+      label: "JCS YACHTING",
+      title: "التميّز في البحر",
+      imageAlt: "من نحن",
+      p1:
+        "خدمات موثوقة لإدارة ودعم اليخوت في البحر الأبيض المتوسط.",
+      p2:
+        "نقدم حلولاً بحرية احترافية ومخصصة.",
+      p3:
+        "نتمركز في موناكو مع خبرة تتجاوز 35 عاماً.",
+    },
+
+    services: {
+      header: "خدماتنا",
+      intro:
+        "خدمات دعم متكاملة لليخوت مصممة لتقديم التميز والسلامة والراحة في البحر.",
+
+      items: {
+        cleaning: {
+          title: "تنظيف اليخوت",
+          desc: "خدمات تنظيف احترافية داخلية وخارجية.",
+        },
+        crew: {
+          title: "إدارة الطاقم",
+          desc: "توظيف وإدارة الطاقم بشكل احترافي.",
+        },
+        concierge: {
+          title: "كونسيرج فاخر",
+          desc: "خدمات كونسيرج راقية.",
+        },
+        maintenance: {
+          title: "الدعم الفني",
+          desc: "صيانة وفحوصات تقنية وقائية.",
+        },
+        fuel: {
+          title: "الوقود والإمدادات",
+          desc: "إدارة الوقود والمستلزمات البحرية.",
+        },
+        port: {
+          title: "خدمات الموانئ",
+          desc: "تخليص الموانئ وتنسيق المراسي.",
+        },
+      },
+    },
+
+    contact: {
+      header: "اتصل بنا",
+      subheader:
+        "أخبرنا باحتياجاتك وسنعاود الاتصال بك في أقرب وقت.",
+
+      form: {
+        name: "الاسم",
+        email: "البريد الإلكتروني",
+        service: "الخدمة المطلوبة",
+        message: "الرسالة",
+        selectPlaceholder: "اختر خدمة",
+        submit: "إرسال الطلب",
+      },
+
+      services: {
+        cleaning: "تنظيف اليخوت",
+        crew: "إدارة الطاقم",
+        concierge: "كونسيرج فاخر",
+        maintenance: "الدعم الفني",
+        fuel: "الوقود والإمدادات",
+        port: "خدمات الموانئ",
+      },
+
+      status: {
+        sending: "جاري الإرسال...",
+        success: "تم إرسال الرسالة بنجاح ✅",
+        error: "حدث خطأ ❌",
+        serverError: "خطأ في الخادم ❌",
       },
     },
   },
